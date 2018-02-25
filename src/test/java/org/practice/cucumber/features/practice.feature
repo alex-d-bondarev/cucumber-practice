@@ -1,6 +1,11 @@
 Feature: PracticeFeature
   This is the description: Init feature
 
+  Background:
+    Given A background Given
+    When A background When
+    Then A background Then
+
   Scenario: Init scenario
     Given I have a test precondition
 #    And I can use cucumber-lambdas
